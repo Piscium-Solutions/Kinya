@@ -1,0 +1,26 @@
+{
+  "doctype": "DocType",
+  "name": "iParty",
+  "module": "Banking",
+  "fields": [
+    {
+      "fieldname": "party_name",
+      "label": "Party Name",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "party_type",
+      "label": "Party Type",
+      "fieldtype": "Select",
+      "options": "Option1\nOption2"
+    }
+    // Add more fields as needed
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1
+    }
+  ]
+}
